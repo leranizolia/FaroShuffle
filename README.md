@@ -1,12 +1,12 @@
 # FaroShuffle
 
-Этот проект реализован в рамках официальной документации по C# (ссылка: https://docs.microsoft.com/en-gb/dotnet/csharp/tutorials/working-with-linq)
+This project is implemented within the official C # documentation (link: https://docs.microsoft.com/en-gb/dotnet/csharp/tutorials/working-with-linq)
 
-В результате было изучены такие темы, как:
+## As a result, topics such as:
 
-1) использование запросов LINQ для агрегирования данных в осмысленную последовательность;
-2) написание extension методов для добавления собственных функций в запросы LINQ;
-3) определение областей в коде, где запросы LINQ могут столкнуться с проблемами производительности, такими как снижение скорости;
-4) lazy и eager оценка запросов LINQ и их влияния на производительность запросов.
+1) using LINQ queries to aggregate data into meaningful sequences;
+2) Writing extension methods to add your own functionality to LINQ queries
+3) Identifying areas in your code where LINQ queries can run into performance problems, such as slowdowns.
+4) lazy and eager evaluate LINQ queries and their impact on query performance.
 
-Помимо LINQ, этот проект реализовывает алгоритмы, которые используются фокусниками для карточных фокусов: тасование Фаро ( out shuffle и in shuffle колоды ) - которые позволяют контролировать, куда перемещается каждая карта в колоде. 
+In addition to LINQ, this project implements the algorithms used by magicians for card tricks: shuffling Faro (out shuffle and in shuffle of the deck) - which allow you to control where each card in the deck is moved.
